@@ -14,7 +14,7 @@ app.get("/restaurant", function(req, res){
     
 //These are placeholder values that will eventually be replaced with DB calls
     var restaurantName = "Rudy's";
-    var restaurantAddr = "10050 Great Hills Trl, Austin, TX 78759";
+    var restaurantAddr = "11570 Research Blvd, Austin, TX 78759";
 
     res.render("displayRestaurant.ejs",{restaurantVar: restaurantName, addressVar: restaurantAddr});
 });
